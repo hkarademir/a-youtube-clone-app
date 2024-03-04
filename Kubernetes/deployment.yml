@@ -4,6 +4,7 @@ metadata:
   name: youtube-clone-app
   labels:
     app: youtube-clone-app
+  namespace: youtube-cicd
 spec:
   replicas: 2
   selector:

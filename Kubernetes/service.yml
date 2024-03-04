@@ -4,10 +4,12 @@ metadata:
   name: youtube-clone-app
   labels:
     app: youtube-clone-app
+  namespace: youtube-cicd
 spec:
-  type: LoadBalancer
+  type: NodePort
   ports:
   - port: 80
     targetPort: 3000
+    nodePort: 30008
   selector:
     app: youtube-clone-app
