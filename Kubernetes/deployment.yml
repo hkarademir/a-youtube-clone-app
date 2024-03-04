@@ -18,7 +18,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
       - name: youtube-clone-app
-        image: harbor.y4test.local/youtube-cicd/youtube-cicd-pipline:latest
+        image: harbor.y4test.local/youtube-cicd/youtube-cicd-pipeline:latest
         imagePullPolicy: "Always"
         ports:
         - containerPort: 3000
