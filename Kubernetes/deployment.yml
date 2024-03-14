@@ -6,7 +6,7 @@ metadata:
     app: youtube-clone-app
   namespace: youtube-cicd
 spec:
-  replicas: 30
+  replicas: 20
   selector:
     matchLabels:
       app: youtube-clone-app
